@@ -1,0 +1,157 @@
+/* Reset some default styles for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Styling for the header */
+header {
+  background-color: rgb(0, 255, 76);
+  color: black;
+  height: 100px;
+  align-items: center;
+}
+
+/* Styling for the container */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 29px;
+}
+
+/* Styling for the image */
+img {
+  width: 200px;
+  height: 70px;
+  align-items: center;
+  margin-top: -20px;
+}
+/* Menú Desplegable */
+.dropdown {
+  display: inline-block;
+  position:relative;
+  margin-right: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  max-width: 400px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #ebebeb;
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+ 
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+/* Styling for the navigation */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+}
+
+/* Styling for the form and search input */
+form {
+  margin-right: 10px;
+}
+
+select {
+  margin-right: 10px;
+}
+
+input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 1.5em;
+}
+
+/* Styling for the body */
+body {
+  font-family: 'roboto', sans-serif;
+  background-color: #ebebeb;
+}
+
+/* Styling for header links on hover */
+header a:hover {
+  color: blueviolet;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Styling for submit button on hover */
+input[type="submit"]:hover {
+  background-color: slategrey;
+  color: white;
+}
+/* Cards */
+
+.product-card {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #e44d26;
+  font-weight: bold;
+}
+
+button {
+  background-color: #e44d26;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

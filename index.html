@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Rapido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+        <img src="./images/sdweqe-removebg-preview.png" alt="logo">
+        <nav>
+            <a href="">Direccion</a>
+            <div class="dropdown">
+                <a href="">Categorias ▽</a>
+                <div class="dropdown-content">
+                <a href="https://blog.hubspot.com/">Periquito</a>
+                <a href="https://academy.hubspot.com/">verdecito</a>
+                <a href="https://www.youtube.com/user/hubspot">vuela</a>
+                </div>
+              </div>
+            <form action="../../form-result.php" method="post" target="_blank">
+
+                <p>
+
+                    <input type="search" name="busquedacodigo" pattern="[A-Za-z0-9]{8,20}"
+                        title="Un código válido consiste en una cadena con 8 a 20 caracteres, cada uno de los cuales es una letra o un dígito"
+                        required>
+
+                    <input type="submit" value="Buscar">
+
+                </p>
+
+            </form>
+            <label for="language">Idioma:</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <!-- Agrega más opciones según sea necesario -->
+            </select>
+            <a href="">🔑 Inciar Sesion</a>
+            <a href="">Historial</a>
+            <a href="">Mis compras</a>
+            <a href="">Carrito</a>
+
+        </nav>
+    </div>
+    </header>
+    <!-- CARDS -->
+    <section>
+        <div class="product-card">
+            <img src="images/gw.jpg" alt="">
+            <h2>Bicicleta GW</h2>
+            <p>Esto es una bicicleta deportiva</p>
+            <span>12.000</span>
+        </div>
+        <div class="product-card">
+            <img src="images/gw.jpg" alt="">
+            <h2>Bicicleta GW</h2>
+            <p>Esto es una bicicleta deportiva</p>
+            <span>12.000</span>
+        </div>
+        <div class="product-card">
+            <img src="images/gw.jpg" alt="">
+            <h2>Bicicleta GW</h2>
+            <p>Esto es una bicicleta deportiva</p>
+            <span>12.000</span>
+        </div>
+
+    </section>
+</body>
+
+</html>
